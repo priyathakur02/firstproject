@@ -1,13 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="css/style.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" >
+    <title>king-bins</title>
+    <link href="css/style.css" type="text/css" rel="stylesheet">
+    <link href="css/slick.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700;800;900&display=swap" rel="stylesheet"> 
-    <title>King Bins</title>
+
+
+
 </head>
 <body>
 <!--------------------------------------------------------header-start-here---------------------------------------------------------->
@@ -16,47 +22,50 @@
         <div class="header-sec">
             
                 <div class="head-king">
-                    <img src="image/king-bins-log0-1.png" alt="logo">
+                <div class="llc-img">
+                    <img src="image/llc-logo.png" alt="logo">
+                </div>
+                    
                 </div>
 
                 <div class="head-king">
                     <div class="head-icon">
-                        <a href="index.html"><i class="fa-regular fa-envelope"></i></a>
+                        <a href="index.html"><img src="image/mail.png" alt="mail"></a>
                     </div>
                     <div class="email">
-                        <h6> Email </h6>
-                            <p>kingbinsllc@gmail.comm</p>
-                    </div>
-                </div>
-
-                <div class="head-king">
-                    <div class="head-icon">
-                        <a href="index.html"><i class="fa-solid fa-phone-volume"></i></a>
-                    </div>
-                    <div class="email">
-                        <h6>Phone Number</h6>
-                        <p>(541)653-6772</p>
+                       <a href="index.html"><h6> Email </h6></a> 
+                          <a href="index.html"><p>kingbinsllc@gmail.com</p></a>  
                     </div>
                 </div>
 
                 <div class="head-king">
                     <div class="head-icon">
-                        <a href="index.html"><i class="fa-solid fa-location-dot"></i></a>
+                        <a href="index.html"><img src="image/call.png" alt="call"></a>
                     </div>
                     <div class="email">
-                        <h6>King Bins LLC</h6>
-                        <p> 1737 S Evergreen St, Canby OR 97013</p>
+                      <a href="index.html"><h6>Phone Number</h6></a>  
+                        <a href="index.html"><p>(541)653-6772</p></a>
+                    </div>
+                </div>
+
+                <div class="head-king">
+                    <div class="head-icon">
+                        <a href="index.html"><img src="image/location.png"alt="image"></a>
+                    </div>
+                    <div class="email">
+                      <a href="index.html"><h6>King Bins LLC</h6></a>  
+                       <a href="index.html"><p> 1737 S Evergreen St, Canby OR 97013</p></a> 
                     </div>
                     
                 </div>
                 <div class="head-king">
                     <div class="head-icon">
-                        <a href="index.html"><i class="fa-regular fa-clock"></i></a>
+                        <a href="index.html"><img src="image/clock.png" alt="clock"></a>
 
                     </div>
                     <div class="email">
-                        <h6>Mon-Sun</h6>
-                        <p>7:00 A.M-5:00 P.M</p>
+                        <a href="index.html"><h6>Mon-Sun</h6></a>
+                        <a href="index.html"><p>7:00 A.M-5:00 P.M</p></a>
                     </div>
 
                 </div>
@@ -72,11 +81,19 @@
         <div class="container-fluid">
             <div class="main-sec">
             <div class="menu">
-                <nav>
+                <div class="toggle" id="collapse">
+                    <i class="fa-solid fa-bars"></i>
+                </div>"
+                <div class="close">
+                    <i class="fa fa-window-close" aria-hidden="true"></i>
+
+                </div>
+                <nav class="wp-collapse">
                     <ul>
                         <li><a href="index.html">HOME</a></li>
                         <li><a href="index.html">ABOUT US</a></li>
-                        <li><a href="index.html">SERVICE <i class="fa-solid fa-angle-down"></i></a>
+                        <li>
+                            <a href="index.html">SERVICE <i class="fa-solid fa-angle-down"></i></a>
                             <ul>
                                 <li><a href="index.html">Service-1</a></li>
                                 <li><a href="index.html">Service-2</a></li>
@@ -96,20 +113,12 @@
                 <a href="index.html"><i class="fa-brands fa-twitter"></i></a>
                 <a href="index.html"><i class="fa-brands fa-instagram"></i></a>
                 <a href="index.html"><i class="fa-brands fa-pinterest"></i></a>
-                <a href="index.html"><i class="fa-brands fa-skype"></i></a>
-                
-                
+                <a href="index.html"><i class="fa-brands fa-skype"></i></a>   
                 </p>
-
             </div>
         </div>
-        </div>
     </div>
-
-
-
-
-
+</div>
 <!-----------------------------------------------------main---header-end-here----------------------------------------------------------------> 
 <!------------------------------------------------------------banner-start-here------------------------------------------------------------>
 <section class="banner">
@@ -139,7 +148,7 @@
     <div class="container">
         <div class="family-sec">
             <img src="image/king-0000.png" alt="king">
-            <h2>Kings Bins is a family run</h2>
+            <h2>KINGS BINS IS A FAMILY </h2>
                 <h6>locally operated service that prides itself 0n <br>
                     affordability, sustainability and being 100% ecofriendly.</h6>
                 <p>Owner operator JC Grim started and founded the company in 2021. “Growing up in Oregon I always took<br>
@@ -155,7 +164,7 @@
 <!------------------------------------------------------------bubbles-start-here------------------------------------------------------->
 <section class="bubbles">
     <div class="container-fluid">
-        <div class="bubbles- sec"> 
+        <div class="bubbles-sec"> 
 
             <div class="bubbles-box">
             <div class="bubbles-1">
@@ -170,7 +179,7 @@
             <div class="bubbles-1">
                 <img src="image/bubbles-2.png" alt="image">
                 </div>
-                <div class="bubbles-text">
+                <div class="bubbles-text-2">
                 <h3>Our service eliminates<br>
                     99.9% of dangerous<br>
                     bacteria and germs.</h3>
@@ -182,7 +191,7 @@
                 <img src="image/bubbles-3.png" alt="image">
                 </div>
 
-            <div class="bubbles-text">
+            <div class="bubbles-text-3">
                 <h3>Eco friendly<br>
                     and 100%<br>
                     chemical free</h3>
@@ -199,5 +208,298 @@
 
 
 <!------------------------------------------------------------bubbles-end--here------------------------------------------------------>
+<!-------------------------------------------------------------page------------------------------------------------------------------->
+<section class="page">
+    <div class="container">
+        <div class="page-sec">
+            <h5>See how our process makes your Bins So Fresh!</h5>
+            <div class="youtube-video">
+                <iframe src="https://www.youtube.com/embed/xcJtL7QggTI" title="Demo Video">
+                </iframe>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+<!----------------------------------------------------------page-end--here------------------------------------------------------------->
+<!------------------------------------------------------------diffrence--------------------------------------------------------------->
+<section class="diffrence">
+    <div class="container-fluid">
+        <div class="diff-section">
+            <h5>See The Diffrece</h5>
+        </div>
+        <div class="slider">
+        <div class="slider-box">
+            <div class="slider-img">
+                <img src="image/before.jpg" alt="image">
+                <p>Before</p>
+            </div>
+
+            <div class="slider-1">
+                <img src="image/after.jpg" alt="image">
+                <p>After</p>
+            </div>
+        </div>
+
+
+        <div class="slider-box">
+            <div class="slider-img">
+                <img src="image/before.jpg" alt="image">
+                <p>Before</p>
+            </div>
+
+            <dyiv class="slider-1">
+                <img src="image/after.jpg" alt="image">
+                <p>After</p>
+            </div>
+        
+
+
+        <div class="slider-box">
+            <div class="slider-img">
+                <img src="image/before.jpg" alt="image">
+                <p>Before</p>
+            </div>
+
+            <div class="slider-1">
+                <img src="image/after.jpg" alt="image">
+                <p>After</p>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+</section>
+<!------------------------------------------------------------diffrence-------------------------------------------------------------------->
+<!------------------------------------------------------------------package--------------------------------------------------------------->
+<section class="package">
+    <div class="container-fluid">
+        <div class="package-sec">
+            <div class="package-box">
+                <div class="package-1">
+                    <img src="image/doller-king.png"alt="new-king">
+                </div>
+                
+            </div>
+            <div class="package-text">
+                <h5>Choose the Perfect Amount of Clean</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor<br>
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+
+            </div>
+
+            <div class="package-btn">
+                <a href="index.html" class="btn-pack">View All Package</a>
+
+            </div>
+        </div>
+    </div>
+</section>
+<!--------------------------------------------------------------package-end-here------------------------------------------------------------>
+<!--------------------------------------------------------------reviews------------------------------------------------------------->
+<section class="reviews">
+    <div class="container-fluid">
+ 
+        <div class="reviws-text">
+            <h5>Latest Reviws</h5>
+
+        </div>
+        <div class="reviews-box">
+
+        
+        <div class="reviews-sec">
+            <a href="index.html"><img src="image/image-box.png"></a>
+            <a href="index.html"><i class="fa-solid fa-star"></i></a>
+            <a href="index.html"><i class="fa-solid fa-star"></i></a>
+            <a href="index.html"><i class="fa-solid fa-star"></i></a>
+            <a href="index.html"><i class="fa-solid fa-star"></i></a>
+            <a href="index.html"><i class="fa-solid fa-star"></i></a>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod ut labore et dolore<br>
+                magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris dolor commodo<br>
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
+                <h3>NAME GOSE HERE</h3>
+                <h4><a href="index.html"><i class="fa-solid fa-calendar-days"></i></a>17 Feb 2020</h4>
+        </div>
+
+
+        <div class="reviews-sec">
+            
+            <a href="index.html"><img src="image/image-box.png"></a>
+            <a href="index.html"><i class="fa-solid fa-star"></i></a>
+            <a href="index.html"><i class="fa-solid fa-star"></i></a>
+            <a href="index.html"><i class="fa-solid fa-star"></i></a>
+            <a href="index.html"><i class="fa-solid fa-star"></i></a>
+            <a href="index.html"><i class="fa-solid fa-star"></i></a>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod ut labore et dolore<br>
+                magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris dolor commodo<br>
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
+                <h3>NAME GOSE HERE</h3>
+                <h4><a href="index.html"><i class="fa-solid fa-calendar-days"></i></a>17 Feb 2020</h4>
+        </div>
+
+
+        <div class="reviews-sec">
+    
+            <a href="index.html"><img src="image/image-box.png"></a>
+            <a href="index.html"><i class="fa-solid fa-star"></i></a>
+            <a href="index.html"><i class="fa-solid fa-star"></i></a>
+            <a href="index.html"><i class="fa-solid fa-star"></i></a>
+            <a href="index.html"><i class="fa-solid fa-star"></i></a>
+            <a href="index.html"><i class="fa-solid fa-star"></i></a>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod ut labore et dolore<br>
+                magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris dolor commodo<br>
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
+                <h3>NAME GOSE HERE</h3>
+                <h4><a href="index.html"><i class="fa-solid fa-calendar-days"></i></a>17 Feb 2020</h4>
+        </div>
+
+    </div>
+    </div>
+</section>
+<!--------------------------------------------------------------reviews---------------------------------------------------------------->
+<!--------------------------------------------------------------our-service------------------------------------------------------------>
+<section class="our-service">
+    <div class="container-fluid">
+        <div class="service-sec">
+            <div class="service-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d13593.05900660952!2d76.90667165!3d31.599204499999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1668847363359!5m2!1sen!2sin" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            </div>
+            <div class="ser-our">
+
+            <div class="our-3">
+                <h4>Our Service Area</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed
+                    eiusmod tempor incididunt ut labore et dolore magna aliqua
+                    Ut enim ad minim venian.</p>
+            </div>
+            <div class="service-icon">
+                <div class="our">
+                    <div class="our-1">
+                        <a href="index.html"><img src="image/mail.png" alt="mail"></a>
+                    </div>
+                    <div class="phone">
+                        <h6> Email </h6>
+                            <p>kingbinsllc@gmail.com</p>
+                    </div>
+                </div>
+                <div class="our">
+                    <div class="our-1">
+                        <a href="index.html"><img src="image/call.png" alt="call"></a>
+                    </div>
+                    <div class="phone">
+                        <h6>Phone Number</h6>
+                        <p>(541)653-6772</p>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="service-icon-2">
+            <div class="our-box">
+                <div class="our-1">
+                    <a href="index.html"><img src="image/location.png" alt="location"></a>
+                </div>
+                <div class="phone">
+                    <h6>King Bins LLC</h6>
+                    <p> 1737 S Evergreen St, Canby OR 97013</p>
+                </div>
+            </div>
+            <div class="our-box">
+                <div class="our-1">
+                    <a href="index.html"><img src="image/clock.png" alt="clock"></a>
+
+                </div>
+                <div class="phone">
+                    <h6>Mon-Sun</h6>
+                    <p>7:00 A.M-5:00 P.M</p>
+                </div>
+            </div>
+
+            </div>
+            <div class="ser-button">
+                <a href="index.html" class="our-btn">CONTACT US</a>
+
+            </div>
+
+            <div class="cartoon-box">
+                <img src="image/daabaaa.png" alt="">
+            </div>
+
+        </div>
+
+        </div>
+    </div>
+</section>
+<!--------------------------------------------------------------our-service------------------------------------------------------------>
+
+<!----------------------------------------------------------footer-------------------------------------------------------------- -->
+<div class="footer">
+    <div class="container-fluid">
+        <div class="links">
+            <div class="link-text">
+                <img src="image/footer-logo.png" alt="logo">
+                <p>Lorem ipsum dolor amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+              </p>
+
+            </div>
+
+            <div class="link-text">
+                <h5>Quick Links</h5>
+                <nav>
+                    <ul>
+                    <li><a href="index.html">»About Us</a></li>                 
+                    <li><a href="index.html">»Testimonials</a></li>
+                    <li><a href="index.html"> » FAQ’s</a></li>
+                    <li><a href="index.html">»Contact Us</a></li>
+                </ul>
+                </nav>
+            </div>
+
+            <div class="link-text">
+                <h5>Service</h5>
+                <ul>
+                    <li><a href="index.html">»Trash bin cleanings</a></li>                                                                        
+                    <li><a href="index.html">»Driveway & exterior pressure washing</a></li>
+                    <li><a href="index.html">»Indoor pressure washing</a></li>
+                    <li><a href="index.html">»Large and smaller bin cleanings</a></li>
+                    <li><a href="index.html">»Large area pressure washing</a></li>
+                    <li><a href="index.html">» Sanitation services</a></li>
+                    <li><a href="index.html">»Vehicle fleet washing</a></li>
+                </ul>
+            </div>
+
+            <div class="link-text">
+                <h5>Sign up for Newsletter & Stay in Touch</h5>
+                <input type="text" id="fname" placeholder="Enter Name">
+                <input type="text" id="email" placeholder="Enter Email"><br>
+                <input type="submit" value="Submit">
+
+            </div>
+        </div>
+        <div class="footer-sec">
+            <div class="footer-1">
+                <h6>Copyright ©2021 By King Bins LLC. All Rights Reserved.</h6>
+            </div>
+            <a href="index.html"><i class="fa-solid fa-angle-up"></i></a>
+            <div class="footer-1">
+                <h6>Terms of service     |     Privacy policy</h6>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+<!-----------------------------------------------------------------footer--------------------------------------------------------------->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+<script src="js/slick.min.js" type="text/javascript"></script>
+<script src="js/custome.js" type="text/javascript"></script>
 </body>
-</html>
+</html> 
